@@ -132,13 +132,6 @@ A complete 96-well plate barcode CSV template is included at [`barcodes/hi_tom_b
 - **R / ggplot2** integration for publication-quality visualization
 - **Illumina MiSeq 2x250bp** amplicon sequencing data
 
-## Context
-
-This pipeline was used to analyze genome editing outcomes in the following research:
-
-1. Byiringiro, I., Pan, C., & Qi, Y. (2024). *Orthogonal genome editing and transcriptional activation in tomato using CRISPR-Combo systems.* Plant Cell Reports, 43(9), 227.
-
-2. Byiringiro, I.\*, Contiliani, D.F.\*, et al. (In preparation). *Targeting A/T Rich PAM Sites for Advanced Genome Engineering in Plants by Expanded CRISPR-Combo Systems.*
 
 ## How to Use
 
