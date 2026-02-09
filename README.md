@@ -4,7 +4,7 @@ Bioinformatics pipeline for analyzing next-generation sequencing (NGS) amplicon 
 
 ## Overview
 
-This notebook implements an end-to-end analysis workflow for assessing CRISPR-mediated genome editing outcomes using Illumina amplicon sequencing data. It was developed as part of research on CRISPR-Combo systems for simultaneous genome editing and transcriptional activation in plants.
+This notebook implements an end-to-end analysis workflow for assessing CRISPR-mediated genome editing outcomes using Illumina amplicon sequencing data.
 
 ## What This Pipeline Does
 
