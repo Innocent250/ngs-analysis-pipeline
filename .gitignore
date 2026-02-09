@@ -1,0 +1,25 @@
+# Data files (don't commit raw sequencing data)
+*.fastq
+*.fastq.gz
+*.bam
+*.sam
+*.fasta
+data/raw/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Output files (keep these locally, regenerate from notebook)
+output/
+results/
