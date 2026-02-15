@@ -136,11 +136,11 @@ A complete 96-well plate barcode CSV template is included at [`barcodes/hi_tom_b
 ## How to Use
 
 ### Option 1: Google Colab (Recommended)
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1AGnuWWpZNht5dUOKPikmFaHzyCyVNx05?usp=sharing)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Innocent250/ngs-analysis-pipeline/blob/main/NGS_Analysis_Pipeline.ipynb)
 
 ### Option 2: Run Locally
 ```bash
-git clone https://github.com/YOUR_USERNAME/ngs-analysis-pipeline.git
+git clone https://github.com/Innocent250/ngs-analysis-pipeline.git
 cd ngs-analysis-pipeline
 pip install -r requirements.txt
 jupyter notebook NGS_Analysis_Pipeline.ipynb
