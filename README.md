@@ -2,6 +2,8 @@
 
 Bioinformatics pipeline for analyzing next-generation sequencing (NGS) amplicon data from CRISPR-Cas genome editing experiments in plants, using the **Hi-TOM** (High-Throughput Tracking of Mutations) barcoding system.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Innocent250/ngs-analysis-pipeline/blob/main/NGS_Analysis_Pipeline.ipynb)
+
 ## Overview
 
 This notebook implements an end-to-end analysis workflow for assessing CRISPR-mediated genome editing outcomes using Illumina amplicon sequencing data.
