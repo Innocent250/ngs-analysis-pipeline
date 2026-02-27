@@ -170,7 +170,3 @@ See `requirements.txt` for Python dependencies.
 - PhD Candidate, Plant Sciences, University of Maryland
 - Email: ibyiring@umd.edu
 - Lab: [Qi Lab - Plant Genome Engineering](https://www.yipingqi.com/)
-
-## License
-
-MIT License
