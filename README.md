@@ -24,7 +24,7 @@ This notebook implements an end-to-end analysis workflow for assessing CRISPR-me
  │  Genomic DNA                        │      │  FASTQ R1 + R2                           │
  │       │                             │      │       │                                  │
  │       ▼                             │      │       ▼                                  │
- │  PCR Round 1 (target-specific       │      │  Read Merging (flashpy)                  │
+ │  PCR Round 1 (target-specific       │      │  Read Merging (fastp)                  │
  │   + bridging sequences)             │      │       │                                  │
  │       │                             │      │       ▼                                  │
  │       ▼                             │      │  Demultiplexing (barcode splitting)      │
@@ -33,8 +33,8 @@ This notebook implements an end-to-end analysis workflow for assessing CRISPR-me
  │       │                             │      │  CRISPResso2 Batch Analysis              │
  │       ▼                             │      │       │                                  │
  │  Pool + cleanup + sequencing        │      │       ▼                                  │
- │  (Illumina MiSeq 2x250bp)          │      │  Indel frequencies, allele tables,       │
- │                                     │      │  mutation profiles per sample             │
+ │  (Illumina MiSeq 2x250bp)           │      │  Indel frequencies, allele tables,       │
+ │                                     │      │  mutation profiles per sample            │
  └─────────────────────────────────────┘      └──────────────────────────────────────────┘
 ```
 
@@ -83,9 +83,9 @@ Forward barcodes (columns 1-12 on a 96-well plate):
 | Hi-TOM-F-7 | `gcttCGACt` |
 | Hi-TOM-F-8 | `gcttGATGt` |
 | Hi-TOM-F-9 | `gcttATACt` |
-| Hi-TOM-F-10 | `gcttCACAt` |
-| Hi-TOM-F-11 | `gcttGTGCt` |
-| Hi-TOM-F-12 | `gcttACTAt` |
+| Hi-TOM-F-10| `gcttCACAt` |
+| Hi-TOM-F-11| `gcttGTGCt` |
+| Hi-TOM-F-12| `gcttACTAt` |
 
 Reverse barcodes (rows A-H on a 96-well plate):
 
