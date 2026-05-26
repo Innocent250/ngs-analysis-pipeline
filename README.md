@@ -24,7 +24,7 @@ This notebook implements an end-to-end analysis workflow for assessing CRISPR-me
  │  Genomic DNA                        │      │  FASTQ R1 + R2                           │
  │       │                             │      │       │                                  │
  │       ▼                             │      │       ▼                                  │
- │  PCR Round 1 (target-specific       │      │  Read Merging (fastp)                  │
+ │  PCR Round 1 (target-specific       │      │  Read Merging (fastp)                    │
  │   + bridging sequences)             │      │       │                                  │
  │       │                             │      │       ▼                                  │
  │       ▼                             │      │  Demultiplexing (barcode splitting)      │
