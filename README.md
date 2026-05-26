@@ -61,7 +61,7 @@ Forward: 5'- [Illumina adapter] -[F barcode]- ggagtgagtacggtgtgc - 3'
 Reverse: 5'- [Illumina adapter] -[R barcode]- gagttggatgctggatgg - 3'
 ```
 
-### Illumina Adapter Sequences
+### Illumina Adapter Sequences example
 
 | Read | Adapter Sequence (5' → 3') |
 |------|----------------------------|
