@@ -46,7 +46,7 @@ This pipeline is designed for data generated using the **Hi-TOM** barcoding syst
 
 The Hi-TOM system uses two rounds of PCR:
 
-**Round 1 — Target-specific amplification with bridging sequences:**
+**Round 1 - Target-specific amplification with bridging sequences:**
 
 ```
 Forward: 5'- ggagtgagtacggtgtgc -[target-specific F primer]- 3'
