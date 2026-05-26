@@ -11,7 +11,7 @@ This notebook implements an end-to-end analysis workflow for assessing CRISPR-me
 ## What This Pipeline Does
 
 - Processes Illumina MiSeq paired-end amplicon sequencing reads
-- Merges paired-end reads with quality-aware overlap detection
+- Merges paired-end reads with using overlap sequences.
 - Demultiplexes merged reads by Hi-TOM barcode pairs (up to 96 samples)
 - Quantifies editing outcomes (indel frequencies, allele distributions) using CRISPResso2
 - Supports multiplexed target analysis from barcoded amplicon libraries
