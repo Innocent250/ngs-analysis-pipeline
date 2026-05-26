@@ -128,7 +128,7 @@ A complete 96-well plate barcode CSV template is included at [`barcodes/hi_tom_b
 
 ## Methods & Tools Used
 
-- **[flashpy](https://github.com/ponnhide/flashpy)** for paired-end read merging with quality-aware overlap detection
+- **[fastp](https://github.com/opengene/fastp)** for paired-end read merging with quality-aware overlap detection
 - **[CRISPResso2](https://github.com/pinellolab/CRISPResso2)** for CRISPR editing quantification
 - **Python** (pandas, NumPy, BioPython) for data processing
 - **R / ggplot2** integration for publication-quality visualization
